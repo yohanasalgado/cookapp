@@ -1,0 +1,42 @@
+footer {color: lightblue;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+fieldset {
+	background-color: rgba(253, 254, 254, 0.4);
+	margin: 5% 25%;
+	padding: 1.5%;
+	color: white;
+	text-shadow: 1px 2px black;
+	border-radius: 15px;
+	border-color: lightblue;
+	border-width: 3px;
+	border-style: solid;
+}
+div {
+	width: 650px;
+	height: 200px;
+}
+img {
+	float: left;
+	margin: 0% 5%;
+	padding: 1.5%;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: lightblue;
+	width: 200px;
+	height: 150px;
+}
+img:hover {
+	border-style: none;
+	box-shadow: 0 4px 8px 0 rgba(93, 173, 226, 0.8), 0 6px 20px 0 rgba(93, 173, 226, 0.19);
+}
+div > p {
+	font-size: 125%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+div > p:hover {color: #5DADE2;}

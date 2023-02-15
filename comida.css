@@ -1,0 +1,40 @@
+footer {color: #EB984E;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	color: #333;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+table {
+	background-color: rgba(253, 254, 254, 0.4);
+	margin: 5% 20%;
+	padding: 2% 5%;
+	color: white;
+	text-shadow: 2px 2px black;
+	border-radius: 15px;
+	border-style: dashed;
+	border-color: #EB984E;
+	border-width: 2.5px;
+}
+td > p {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 155%;
+	margin: 0% 5%;
+}
+td > p:hover {color: #F5B041;}
+img {
+	width: 180px;
+	height: 130px;
+	border-style: none;
+	padding: 1%
+}
+img:hover {
+	border-color: #F5B041;
+	border-style: double;
+}
+.text {
+	width: 300px;
+	height: 1100px;
+}

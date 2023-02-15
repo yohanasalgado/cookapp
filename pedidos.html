@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Restaurante </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="pedidos.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="resto.js"></script>
+</head>
+<body>
+	<header>
+		<p> Restaurante </p>
+	</header>
+	<ul>
+		<li> <a href="menu.html">Inicio</a> </li>
+		<li> <a href="comidas.html">Comidas</a> </li>
+		<li> <a href="postres.html">Postres</a> </li>
+		<li> <a href="bebidas.html">Bebidas</a> </li>
+		<li> <a href="tragos.html">Tragos</a> </li>
+		<li> <a href="pedidos.html">Pedidos</a> </li>
+		<li> <a href="reserva.html">Reservas</a> </li>
+		<li> <a href="menu.html#contactos">Contactos</a> </li>
+	</ul>
+	<fieldset>
+		<form name="ped" action="pedidos2.html" method="post">
+			Cantidad de Personas 
+			<select id="personas">
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+			Adultos 
+			<select id="adulto">
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+			Niños
+			<select id="niño">
+				<option> 0 </option>
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+			Comidas 
+			<select id="comidas">
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+   			Postres 
+   			<select id="postres">
+				<option> 0 </option>
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+			Bebidas 
+			<select id="bebidas">
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+			Tragos 
+			<select id="tragos">
+				<option> 0 </option>
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select><br><hr>
+   			Observaciones <br>
+			<textarea cols="60" rows="10" id="observaciones"></textarea><br><br>
+			<input type="submit" class="button" value="Enviar" onclick="return Pedido()">
+		</form>
+	</fieldset>	
+	<footer> <p> Alumnos: Salgado Yohana, Suarez Thiago y Torres Marcos. </p></footer>
+</body>
+</html>    

@@ -1,0 +1,72 @@
+footer {color: #F1948A;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+img {
+	border-style: solid;
+	border-color: lightgrey;
+	margin: 1% 3%;
+	width: 300px;
+	height: 200px;
+}
+img:hover {
+	box-shadow: 0 4px 8px 0 rgba(242, 243, 244, 0.5), 0 6px 20px 0 rgba(254, 253, 254, 0.19);
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+	opacity: 1;
+	transform: scale(1.15);
+}
+form, input, textarea, .button, fieldset > div, fieldset > div > a {color: white;}
+fieldset {margin: 5% 10%;}
+fieldset, #cont {
+	background-color: rgba(253, 254, 254, 0.4); 
+	border-radius: 15px;
+	border-style: none;
+}
+fieldset > div > a, fieldset > a, fieldset > div > a:hover {font-weight: bold;}
+fieldset > div > a {font-size: 175%;}
+fieldset > a {
+	margin: 0% 25%;
+	color: #E74C3C;
+	font-size: 160%;
+	text-decoration: underline;
+	text-shadow: 1px 2px black;
+}
+form, fieldset > div {text-shadow: 1px 2px black;}
+input, textarea  {
+	background-color: #F1948A;
+	border-color: transparent;
+	border-radius: 15px;
+}
+input, textarea {padding: 5px;}
+.button {
+	background-color: black;
+	border-radius: 8px;
+}
+#cont > a {
+	font-size: 175%;
+	text-decoration: none;
+}
+#cont > form, #cont > div {margin: 5% 10%;}
+#cont > form {
+	float: left;
+	font-size: 110%;
+}
+#cont > div {
+	padding: 7%;
+	font-size: 90%;
+}
+#cont > div > p {
+	font-weight: bold;
+	font-size: 175%;
+}
+fieldset > div > a {text-decoration: none;}
+fieldset > div > a:hover {color: #E74C3C;}
+i {color: lightpink;}
+a > i:hover {color: #E74C3C;}

@@ -1,0 +1,38 @@
+footer {color: #48C9B0;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+fieldset {
+	margin: 5% 30%;
+	padding: 2%;
+	color: white;
+	background-color: rgba(253, 254, 254, 0.4);
+	border-style: dotted;
+	border-width: 3px;
+	border-color: #48C9B0;
+	text-shadow: 2px 2px black;
+}
+div > p {
+	text-decoration: underline;
+	font-weight: bold;
+}
+div {
+	margin: 3%;
+    padding: 3%;
+}
+img {
+	width: 250px;
+	height: 200px;
+	border-radius: 15px;
+	padding: 1.5%;
+}
+img:hover {
+	box-shadow: 0 4px 8px 0 rgba(254, 253, 254, 0.5), 0 6px 20px 0 rgba(254, 253, 254, 0.19);
+	border-style: double;
+	border-color: #48C9B0;
+}
+fieldset > div {font-size: 130%;}
+fieldset > div > p:hover {color: #48C9B0;}

@@ -1,0 +1,33 @@
+footer {color: #F9E79F;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+fieldset {
+	margin: 5% 25%;
+	background-color: rgba(253, 254, 254, 0.4);
+	border-radius: 10px;
+	border-style: double;
+	border-color: #F7DC6F;
+	border-width: 5px;
+	text-shadow: 2px 3px white;
+	font-weight: bold;
+	color: black;
+}
+input, textarea, select  {
+	background-color: #F9E79F;
+	color: grey; 
+	border-color: transparent;
+	border-radius: 8px;
+	padding: 5px;
+}
+.button {
+	background-color: black;
+	color: white;
+}
+form {
+	margin: 2.5%;
+}
+hr {width: 80%;}

@@ -1,0 +1,41 @@
+footer {color: #F1948A;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+ul {width: 136%;}
+table {
+	background-color: rgba(253, 254, 254, 0.4);
+	margin: 5%;
+	padding: 1.5%;
+	color: white;
+	text-shadow: 1px 2px black;
+	border-radius: 15px;
+	border-color: #F1948A;
+	border-style: double;
+	border-width: 5px;
+}
+td {
+	width: 300px;
+	height: 600px;
+}
+td > p {
+	font-weight: bold;
+	font-size: 125%;
+	text-decoration: underline;
+}
+td > img {
+	width: 170px;
+	height: 120px;
+	border-style: dotted;
+	margin: 10% 0%;
+}
+td > img:hover {
+	border-color: #EC7063;
+	border-style: solid;
+}
+td > p:hover {
+	color: #EC7063;
+}

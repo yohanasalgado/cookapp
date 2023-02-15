@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Restaurante </title>
+    <script type="text/javascript" src="resto.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reserva.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<p> Restaurante <a href="login.html"></a></p>
+	</header>
+	<ul>
+		<li> <a href="menu.html">Inicio</a> </li>
+		<li> <a href="comidas.html">Comidas</a> </li>
+		<li> <a href="postres.html">Postres</a> </li>
+		<li> <a href="bebidas.html">Bebidas</a> </li>
+		<li> <a href="tragos.html">Tragos</a> </li>
+		<li> <a href="pedidos.html">Pedidos</a> </li>
+		<li> <a href="reserva.html">Reservas</a> </li>
+		<li> <a href="menu.html#contactos">Contactos</a> </li>
+	</ul>
+	<fieldset>
+        <form name="reser" action="reserva2.html" method="post">
+			Fecha <input type="date" id="fecha"> <br><br>
+			Hora 
+			<select id="hora">
+				<option> 12:30 </option>
+				<option> 13:00 </option>
+				<option> 13:30 </option>
+				<option> 14:00 </option>
+				<option> 14:30 </option>
+				<option> 15:00 </option>
+				<option> 20:00 </option>
+				<option> 21:00 </option>
+				<option> 21:30 </option>
+				<option> 22:00 </option>
+				<option> 22:30 </option>
+			</select> <br><br>
+			Personas 
+			<select id="personas">
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+				<option> 6 </option>
+				<option> 7 </option>
+				<option> 8 </option>
+				<option> 9 </option>
+				<option> 10 </option>
+				<option> +10 </option>
+			</select> <br><br>
+			Cliente <br><br>
+			Nombre: <input type="text" id="nombre" name=""> <br><br>
+			Apellido: <input type="text" id="apellido" name=""> <br><br>
+			Teléfono: <input type="text" id="telefono" name=""> <br><br>
+			Email: <input type="text" id="email" name=""> <br><br>
+			Observaciones: <br><textarea cols="60" id="observaciones" rows="5"></textarea> <br><br>
+			<input type="submit" class="button" value="Confirmar" onclick="return Reserva()">
+		</form>
+	</fieldset>
+	<footer> <p> Alumnos: Salgado Yohana, Suarez Thiago y Torres Marcos. </p></footer>
+</body>
+</html>

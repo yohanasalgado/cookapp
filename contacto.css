@@ -1,0 +1,28 @@
+footer {color: #F1948A;}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+fieldset > a, fieldset > form {
+	font-size: 90%;
+	text-shadow: 2px 2px white;
+}
+input, textarea, .button {color: white;}
+fieldset {
+	background-color: rgba(253, 254, 254, 0.4); 
+	border-radius: 15px;
+	border-style: none;
+	margin: 5% 10%;
+}
+input, textarea  {
+	background-color: #F1948A;
+	border-color: transparent;
+	border-radius: 15px;
+	padding: 5px;
+}
+.button {
+	background-color: black;
+	border-radius: 8px;
+}
